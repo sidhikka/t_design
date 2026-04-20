@@ -425,6 +425,110 @@ footer{
   .services-grid{grid-template-columns:1fr}
   footer{flex-direction:column;text-align:center;padding:28px 22px}
 }
+/* ─── EXTRA MOBILE FIX (SMALL PHONES) ─── */
+@media(max-width:600px){
+
+  nav{
+    padding:12px 16px;
+  }
+
+  .nav-logo-text{
+    font-size:16px;
+    letter-spacing:2px;
+  }
+
+  .hero{
+    padding:0 16px;
+  }
+
+  .hero-title{
+    font-size:clamp(40px, 12vw, 64px);
+    line-height:1;
+  }
+
+  .hero-sub{
+    font-size:14px;
+    max-width:100%;
+  }
+
+  .hero-cta{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .btn-yellow,
+  .btn-ghost{
+    width:100%;
+    justify-content:center;
+  }
+
+  .hero-scroll{
+    left:16px;
+    bottom:20px;
+  }
+
+  section{
+    padding:56px 16px;
+  }
+
+  .section-title{
+    font-size:clamp(32px, 8vw, 48px);
+  }
+
+  .about-grid{
+    gap:28px;
+  }
+
+  .logo-showcase{
+    padding:28px;
+  }
+
+  .logo-showcase img{
+    width:180px;
+    height:180px;
+  }
+
+  .designs-grid{
+    grid-template-columns:1fr;
+  }
+
+  .service-card{
+    padding:36px 24px;
+  }
+
+  .svc-num{
+    font-size:48px;
+  }
+
+  .why-logo-ring{
+    width:260px;
+    height:260px;
+  }
+
+  .why-logo-ring img{
+    width:180px;
+    height:180px;
+  }
+
+  .contact-right-panel{
+    padding:32px 20px;
+  }
+
+  .contact-right-panel img{
+    width:140px;
+    height:140px;
+  }
+
+  .contact-email-link{
+    font-size:18px;
+    word-break:break-all;
+  }
+
+  footer{
+    padding:24px 16px;
+  }
+}
 </style>
 </head>
 <body>
