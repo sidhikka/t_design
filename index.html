@@ -415,11 +415,27 @@ footer{
 /* ─── RESPONSIVE ─── */
 @media(max-width:960px){
   nav{padding:14px 22px}
-  .nav-links{display:none}
+ .nav-links{
+  display:flex;
+  gap:16px;
+  overflow-x:auto;
+}
+
+.nav-links a{
+  font-size:10px;
+  white-space:nowrap;
+}
   section{padding:64px 22px}
   .hero{padding:0 22px}
   .hero-content{max-width:100%;padding:120px 0 60px}
-  .hero-right{display:none}
+.hero-right{
+  position:relative;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  padding:20px 0;
+}
   .about-grid,.contact-grid,.why-grid{grid-template-columns:1fr;gap:40px}
   .designs-grid{grid-template-columns:repeat(2,1fr)}
   .services-grid{grid-template-columns:1fr}
